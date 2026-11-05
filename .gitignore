@@ -1,0 +1,20 @@
+# EFI 与序列号 —— 绝对不提交
+EFI/
+*.aml
+*.efi
+*.kext
+*.zip
+*.dmg
+*.img
+
+# 设备唯一标识
+*serial*
+*smuuid*
+*.plist.bak
+
+# 系统
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
